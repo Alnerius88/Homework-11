@@ -6,6 +6,10 @@ public class Main {
     task1();
     task2();
     task3();
+        System.out.println("Варкалось. Хливкие шорьки\n" +
+                "   Пырялись по наве,\n" +
+                "   И хрюкотали зелюки,\n" +
+                "   Как мюмзики в мове");
     }
     public static void divideYear (int year) {
         boolean leapYear = (year % 400 == 0 || year % 4 == 0 && year % 100 != 0);
